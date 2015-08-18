@@ -30,7 +30,7 @@ The egg can then be used anywhere you want (e.g. in a PySpark script).
 Usage of the stemmer is pretty straightforward. First ensure the egg is on your python path:
 
 ```
-PYTHONPATH="$PYTHONPATH:/path/to/kpss/kpss-0.1-py2.7.egg" bin/python
+PYTHONPATH="$PYTHONPATH:/path/to/kpss/kpss-0.1-py2.7.egg" python
 ```
 
 Then just load the module and call the `stem` function:
